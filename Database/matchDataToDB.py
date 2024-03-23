@@ -17,7 +17,7 @@ mycursor = db.cursor()
 class apiCall():
     def __init__(self):
         self.s = requests.Session()
-        # self.s.headers = {'Authorization':'388b64da-d6a6-47d2-a166-c00c938b8a88'}
+        # self.s.headers = {}
 
     def getProMatchInfo(self, id):
         
