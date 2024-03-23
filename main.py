@@ -2,8 +2,8 @@ import requests
 
 match_id = 7195515861  # Replace with the actual match ID you want to retrieve
 
-api_key = "388b64da-d6a6-47d2-a166-c00c938b8a88"  # Replace with your OpenDota API key
-url = f"https://api.opendota.com/api/matches/{match_id}?api_key={api_key}"
+  # Replace with your OpenDota API key
+url = f"https://api.opendota.com/api/matches/{match_id}"
 
 response = requests.get(url)
 data = response.json()
