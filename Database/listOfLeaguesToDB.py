@@ -35,7 +35,7 @@ for leagueID in leagueIDS:
         matchData = requests.get(url).json()
         del matchData["pre_game_duration"]
         del matchData["flags"]
-        del matchData["radiant_name"]
+        #del matchData["radiant_name"]
         del matchData["radiant_logo"]
         del matchData["dire_name"]
         del matchData["dire_logo"]
